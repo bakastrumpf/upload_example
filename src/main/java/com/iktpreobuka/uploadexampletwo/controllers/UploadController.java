@@ -28,11 +28,13 @@ public class UploadController {
 	@Autowired
 	private FileHandler fileHandler;
 	
+	// vraća string UPLOAD koji je zapravo template UPLOAD.HTML
 	@RequestMapping(method = RequestMethod.GET)
 	public String index() {
 		return "upload";
 	}
 
+	// vraća string UPLOADSTATUS koji je zapravo template UPLOADSTATUS.HTML
 	@RequestMapping(method = RequestMethod.GET, path = "/uploadStatus")
 	public String uploadStatus() {
 		return "uploadStatus";
@@ -55,5 +57,7 @@ public class UploadController {
 //			e.printStackTrace();
 //		}
 //		return result;
+		
+		// return null;
 	}
 }

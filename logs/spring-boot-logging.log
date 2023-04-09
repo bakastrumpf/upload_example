@@ -383,3 +383,326 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2021-07-20 14:40:36.664  INFO 12272 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
 2021-07-20 14:40:39.782  INFO 12272 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
 2021-07-20 14:40:39.782  INFO 12272 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-04-09 22:05:41.159  INFO 13235 --- [restartedMain] c.i.u.UploadExample2Application          : Starting UploadExample2Application using Java 15.0.2 on montekrista-Vostro-15-3568 with PID 13235 (/home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2/target/classes started by montekrista in /home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2)
+2023-04-09 22:05:41.179  INFO 13235 --- [restartedMain] c.i.u.UploadExample2Application          : No active profile set, falling back to default profiles: default
+2023-04-09 22:05:41.252  INFO 13235 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 22:05:41.255  INFO 13235 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 22:05:42.549  INFO 13235 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2023-04-09 22:05:42.575  INFO 13235 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 22:05:42.576  INFO 13235 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-09 22:05:42.692  INFO 13235 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 22:05:42.693  INFO 13235 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1436 ms
+2023-04-09 22:05:42.991 DEBUG 13235 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-09 22:05:43.051 DEBUG 13235 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-04-09 22:05:43.084 DEBUG 13235 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-09 22:05:43.098 DEBUG 13235 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-09 22:05:43.207  INFO 13235 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-09 22:05:43.245  INFO 13235 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-09 22:05:43.261  INFO 13235 --- [restartedMain] c.i.u.UploadExample2Application          : Started UploadExample2Application in 2.686 seconds (JVM running for 4.382)
+2023-04-09 22:05:43.267  INFO 13235 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-09 22:05:43.271  INFO 13235 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-09 22:12:29.673  INFO 13235 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-09 22:12:29.674  INFO 13235 --- [RMI TCP Connection(16)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-04-09 22:15:58.450  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : Starting UploadExample2Application using Java 15.0.2 on montekrista-Vostro-15-3568 with PID 13615 (/home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2/target/classes started by montekrista in /home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2)
+2023-04-09 22:15:58.455  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : No active profile set, falling back to default profiles: default
+2023-04-09 22:15:58.490  INFO 13615 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 22:15:58.490  INFO 13615 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 22:15:59.113  INFO 13615 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2023-04-09 22:15:59.125  INFO 13615 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 22:15:59.126  INFO 13615 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-09 22:15:59.176  INFO 13615 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 22:15:59.177  INFO 13615 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 686 ms
+2023-04-09 22:15:59.324 DEBUG 13615 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-09 22:15:59.369 DEBUG 13615 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-04-09 22:15:59.393 DEBUG 13615 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-09 22:15:59.401 DEBUG 13615 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-09 22:15:59.461  INFO 13615 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-09 22:15:59.485  INFO 13615 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-09 22:15:59.493  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : Started UploadExample2Application in 1.388 seconds (JVM running for 2.107)
+2023-04-09 22:15:59.494  INFO 13615 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-09 22:15:59.496  INFO 13615 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-09 22:16:58.968  INFO 13615 --- [http-nio-8090-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 22:16:58.968  INFO 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-04-09 22:16:58.969 DEBUG 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2023-04-09 22:16:58.969 DEBUG 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2023-04-09 22:16:58.969 DEBUG 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2023-04-09 22:16:58.972 DEBUG 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7fec1c08
+2023-04-09 22:16:58.973 DEBUG 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1ef9d6b7
+2023-04-09 22:16:58.974 DEBUG 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-09 22:16:58.974  INFO 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2023-04-09 22:16:58.982 DEBUG 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : GET "/", parameters={}
+2023-04-09 22:16:58.990 DEBUG 13615 --- [http-nio-8090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.iktpreobuka.uploadexampletwo.controllers.UploadController#index()
+2023-04-09 22:16:59.006 DEBUG 13615 --- [http-nio-8090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2023-04-09 22:16:59.167 DEBUG 13615 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2023-04-09 22:16:59.312 DEBUG 13615 --- [http-nio-8090-exec-2] o.s.w.s.DispatcherServlet                : GET "/favicon.ico", parameters={}
+2023-04-09 22:16:59.316 DEBUG 13615 --- [http-nio-8090-exec-2] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2023-04-09 22:16:59.321 DEBUG 13615 --- [http-nio-8090-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-04-09 22:16:59.322 DEBUG 13615 --- [http-nio-8090-exec-2] o.s.w.s.DispatcherServlet                : Completed 404 NOT_FOUND
+2023-04-09 22:16:59.326 DEBUG 13615 --- [http-nio-8090-exec-2] o.s.w.s.DispatcherServlet                : "ERROR" dispatch for GET "/error", parameters={}
+2023-04-09 22:16:59.327 DEBUG 13615 --- [http-nio-8090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-04-09 22:16:59.354 DEBUG 13615 --- [http-nio-8090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-09 22:16:59.355 DEBUG 13615 --- [http-nio-8090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Apr 09 22:16:59 CEST 2023, status=404, error=Not Found, message=No message available, (truncated)...]
+2023-04-09 22:16:59.423 DEBUG 13615 --- [http-nio-8090-exec-2] o.s.w.s.DispatcherServlet                : Exiting from "ERROR" dispatch, status 404
+2023-04-09 22:28:51.280  INFO 13615 --- [Thread-6] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-04-09 22:28:51.415  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : Starting UploadExample2Application using Java 15.0.2 on montekrista-Vostro-15-3568 with PID 13615 (/home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2/target/classes started by montekrista in /home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2)
+2023-04-09 22:28:51.416  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : No active profile set, falling back to default profiles: default
+2023-04-09 22:28:51.678  INFO 13615 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2023-04-09 22:28:51.680  INFO 13615 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 22:28:51.680  INFO 13615 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-09 22:28:51.688  INFO 13615 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 22:28:51.688  INFO 13615 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 269 ms
+2023-04-09 22:28:51.766 DEBUG 13615 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-09 22:28:51.776 DEBUG 13615 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-04-09 22:28:51.799 DEBUG 13615 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-09 22:28:51.803 DEBUG 13615 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-09 22:28:51.840  INFO 13615 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-09 22:28:51.851  INFO 13615 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-09 22:28:51.858  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : Started UploadExample2Application in 0.501 seconds (JVM running for 774.472)
+2023-04-09 22:28:51.858  INFO 13615 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-09 22:28:51.860  INFO 13615 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-09 22:28:51.860  INFO 13615 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-09 22:29:33.319  INFO 13615 --- [Thread-9] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-04-09 22:29:33.460  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : Starting UploadExample2Application using Java 15.0.2 on montekrista-Vostro-15-3568 with PID 13615 (/home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2/target/classes started by montekrista in /home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2)
+2023-04-09 22:29:33.461  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : No active profile set, falling back to default profiles: default
+2023-04-09 22:29:33.658  INFO 13615 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2023-04-09 22:29:33.659  INFO 13615 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 22:29:33.659  INFO 13615 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-09 22:29:33.666  INFO 13615 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 22:29:33.666  INFO 13615 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 203 ms
+2023-04-09 22:29:33.731 DEBUG 13615 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-09 22:29:33.745 DEBUG 13615 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-04-09 22:29:33.753 DEBUG 13615 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-09 22:29:33.763 DEBUG 13615 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-09 22:29:33.801  INFO 13615 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-09 22:29:33.826  INFO 13615 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-09 22:29:33.834  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : Started UploadExample2Application in 0.433 seconds (JVM running for 816.448)
+2023-04-09 22:29:33.836  INFO 13615 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-09 22:29:33.857  INFO 13615 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-09 22:29:33.859  INFO 13615 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-09 22:31:53.456  INFO 13615 --- [Thread-14] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-04-09 22:31:53.616  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : Starting UploadExample2Application using Java 15.0.2 on montekrista-Vostro-15-3568 with PID 13615 (/home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2/target/classes started by montekrista in /home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2)
+2023-04-09 22:31:53.620  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : No active profile set, falling back to default profiles: default
+2023-04-09 22:31:53.906  INFO 13615 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2023-04-09 22:31:53.910  INFO 13615 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 22:31:53.912  INFO 13615 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-09 22:31:53.919  INFO 13615 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 22:31:53.919  INFO 13615 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 296 ms
+2023-04-09 22:31:53.994 DEBUG 13615 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-09 22:31:54.003 DEBUG 13615 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-04-09 22:31:54.028 DEBUG 13615 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-09 22:31:54.032 DEBUG 13615 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-09 22:31:54.099  INFO 13615 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-09 22:31:54.127  INFO 13615 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-09 22:31:54.132  INFO 13615 --- [restartedMain] c.i.u.UploadExample2Application          : Started UploadExample2Application in 0.587 seconds (JVM running for 956.746)
+2023-04-09 22:31:54.135  INFO 13615 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-09 22:31:54.152  INFO 13615 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-09 22:31:54.152  INFO 13615 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-09 22:31:57.043  INFO 13615 --- [RMI TCP Connection(30)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-09 22:31:57.043  INFO 13615 --- [RMI TCP Connection(30)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-04-09 22:53:31.557  INFO 15863 --- [restartedMain] c.i.u.UploadExample2Application          : Starting UploadExample2Application using Java 15.0.2 on montekrista-Vostro-15-3568 with PID 15863 (/home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2/target/classes started by montekrista in /home/montekrista/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/upload_example-2)
+2023-04-09 22:53:31.564  INFO 15863 --- [restartedMain] c.i.u.UploadExample2Application          : No active profile set, falling back to default profiles: default
+2023-04-09 22:53:31.605  INFO 15863 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 22:53:31.605  INFO 15863 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 22:53:32.460  INFO 15863 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2023-04-09 22:53:32.475  INFO 15863 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-04-09 22:53:32.475  INFO 15863 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-09 22:53:32.536  INFO 15863 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-04-09 22:53:32.537  INFO 15863 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 931 ms
+2023-04-09 22:53:32.714 DEBUG 15863 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-09 22:53:32.778 DEBUG 15863 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2023-04-09 22:53:32.804 DEBUG 15863 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-09 22:53:32.811 DEBUG 15863 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-09 22:53:32.894  INFO 15863 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-09 22:53:32.923  INFO 15863 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-09 22:53:32.938  INFO 15863 --- [restartedMain] c.i.u.UploadExample2Application          : Started UploadExample2Application in 1.916 seconds (JVM running for 2.849)
+2023-04-09 22:53:32.940  INFO 15863 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-09 22:53:32.942  INFO 15863 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-09 22:53:38.719  INFO 15863 --- [http-nio-8090-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 22:53:38.720  INFO 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-04-09 22:53:38.721 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2023-04-09 22:53:38.721 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2023-04-09 22:53:38.721 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2023-04-09 22:53:38.722 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@240d25d1
+2023-04-09 22:53:38.723 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@60dd9310
+2023-04-09 22:53:38.723 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-09 22:53:38.723  INFO 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2023-04-09 22:53:38.739 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : POST "/upload", parameters={}
+2023-04-09 22:53:38.746 DEBUG 15863 --- [http-nio-8090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.iktpreobuka.uploadexampletwo.controllers.UploadController#singleFileUpload(MultipartFile, RedirectAttributes)
+2023-04-09 22:53:38.770  INFO 15863 --- [http-nio-8090-exec-1] c.i.u.c.UploadController                 : This is an info message
+2023-04-09 22:53:38.770  WARN 15863 --- [http-nio-8090-exec-1] c.i.u.c.UploadController                 : This is a warning message
+2023-04-09 22:53:38.771 ERROR 15863 --- [http-nio-8090-exec-1] c.i.u.c.UploadController                 : This is an error message
+2023-04-09 22:53:38.777 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2023-04-09 22:53:38.917 ERROR 15863 --- [http-nio-8090-exec-1] o.t.TemplateEngine                       : [THYMELEAF][http-nio-8090-exec-1] Exception processing template "redirect.uploadStatus": Error resolving template [redirect.uploadStatus], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [redirect.uploadStatus], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366) [thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190) [thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.3.7.jar:5.3.7]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) [tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.7.jar:5.3.7]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+
+2023-04-09 22:53:38.925 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Error rendering view [org.thymeleaf.spring5.view.ThymeleafView@78172b84]
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [redirect.uploadStatus], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366) ~[thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.3.7.jar:5.3.7]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) [tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.7.jar:5.3.7]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+
+2023-04-09 22:53:38.927 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Failed to complete request: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [redirect.uploadStatus], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-04-09 22:53:38.928 ERROR 15863 --- [http-nio-8090-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [redirect.uploadStatus], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [redirect.uploadStatus], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366) ~[thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring5-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396) ~[spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141) ~[spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) ~[spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.7.jar:5.3.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.7.jar:5.3.7]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.7.jar:5.3.7]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+
+2023-04-09 22:53:38.931 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : "ERROR" dispatch for POST "/error", parameters={}
+2023-04-09 22:53:38.933 DEBUG 15863 --- [http-nio-8090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-04-09 22:53:38.941 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-04-09 22:53:38.948 DEBUG 15863 --- [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Exiting from "ERROR" dispatch, status 500
+2023-04-09 22:54:06.944 DEBUG 15863 --- [http-nio-8090-exec-2] o.s.w.s.DispatcherServlet                : POST "/upload", parameters={}
+2023-04-09 22:54:06.946 DEBUG 15863 --- [http-nio-8090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.iktpreobuka.uploadexampletwo.controllers.UploadController#singleFileUpload(MultipartFile, RedirectAttributes)
+2023-04-09 22:54:06.947  INFO 15863 --- [http-nio-8090-exec-2] c.i.u.c.UploadController                 : This is an info message
+2023-04-09 22:54:06.947  WARN 15863 --- [http-nio-8090-exec-2] c.i.u.c.UploadController                 : This is a warning message
+2023-04-09 22:54:06.947 ERROR 15863 --- [http-nio-8090-exec-2] c.i.u.c.UploadController                 : This is an error message
+2023-04-09 22:54:06.956 DEBUG 15863 --- [http-nio-8090-exec-2] o.s.w.s.v.RedirectView                   : View name 'redirect:', model {}
+2023-04-09 22:54:06.968 DEBUG 15863 --- [http-nio-8090-exec-2] o.s.w.s.DispatcherServlet                : Completed 302 FOUND
+2023-04-09 22:54:06.976 DEBUG 15863 --- [http-nio-8090-exec-3] o.s.w.s.DispatcherServlet                : GET "/uploadStatus;jsessionid=43608FBD49CC1F294F185FABE8778E6C", parameters={}
+2023-04-09 22:54:06.977 DEBUG 15863 --- [http-nio-8090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.iktpreobuka.uploadexampletwo.controllers.UploadController#uploadStatus()
+2023-04-09 22:54:06.978 DEBUG 15863 --- [http-nio-8090-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2023-04-09 22:54:07.107 DEBUG 15863 --- [http-nio-8090-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2023-04-09 23:25:15.478  INFO 15863 --- [RMI TCP Connection(41)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-09 23:25:15.481  INFO 15863 --- [RMI TCP Connection(41)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
