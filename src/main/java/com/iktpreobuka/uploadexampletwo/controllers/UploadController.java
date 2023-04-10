@@ -41,8 +41,7 @@ public class UploadController {
 	}
 	
 	@RequestMapping(method = RequestMethod.POST, path = "/upload")
-	public String singleFileUpload(@RequestParam("file") MultipartFile file,
-			RedirectAttributes redirectAttributes) throws IOException {
+	public String singleFileUpload(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes) throws IOException {
 		logger.debug("This is a debug message!");
 		logger.info("This is an info message");
 		logger.warn("This is a warning message");
@@ -60,4 +59,12 @@ public class UploadController {
 		
 		// return null;
 	}
+	
+	// druga mogućnost,uz throws IOException
+//	@RequestMapping(method = RequestMethod.POST, path = "/upload")
+//	public String singleFileUpload(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes) throws IOException {
+//		String result = null;
+//		result = fileHandler.singleFileUpload(file, redirectAttributes);
+//		return result;
+//	}
 }

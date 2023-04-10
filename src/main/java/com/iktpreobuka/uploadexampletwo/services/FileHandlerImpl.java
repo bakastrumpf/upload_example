@@ -47,4 +47,22 @@ public class FileHandlerImpl implements FileHandler {
 	}
 	
 	
+	
+	
+	// druga mogućnost:
+//	public String singleFileUpload(MultipartFile file, RedirectAttributes redirectAttributes) throws IOException {
+//		if (file.isEmpty()) {
+//			redirectAttributes.addFlashAttribute("message", "Please, select file to upload");
+//			return "redirect.uploadStatus";
+//		}
+//			byte[] bytes = file.getBytes();
+//			Path path = Paths.get("UPLOAD_FOLDER + file.getOriginalFileName()");
+//			Files.write(path, bytes);
+//			redirectAttributes.addFlashAttribute("message", "Congrats! File " 
+//			+ file.getOriginalFilename() 
+//			+ " successfully uploaded!");
+//		return "redirect:/uploadStatus";
+//	}
+	
+	
 }
