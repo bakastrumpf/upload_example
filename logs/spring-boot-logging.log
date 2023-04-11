@@ -724,3 +724,5 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [redir
 2023-04-11 22:16:51.591  INFO 18175 --- [restartedMain] c.i.u.UploadExample2Application          : Started UploadExample2Application in 6.11 seconds (JVM running for 8.856)
 2023-04-11 22:16:51.597  INFO 18175 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
 2023-04-11 22:16:51.611  INFO 18175 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-11 22:31:38.843  INFO 18175 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-11 22:31:38.850  INFO 18175 --- [RMI TCP Connection(23)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
